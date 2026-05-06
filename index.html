@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shambhavaa | Premium Gemstones, Rudraksha & Spiritual Jewelry</title>
+    <meta name="description" content="Shop authentic gemstones, Rudraksha, crystal bracelets and spiritual jewelry with consultation, certification and guided selection.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="#home" class="brand" aria-label="Shambhavaa home">
+                <img src="images/shambhavaa-header-logo-wide.png" alt="Shambhavaa" class="brand-logo">
+            </a>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#finder">Kavach Combo</a>
+                <a href="#gemstones">Gemstones <i data-lucide="chevron-down"></i></a>
+                <a href="#rudraksha">Rudraksha <i data-lucide="chevron-down"></i></a>
+                <a href="#bracelets">Mala <i data-lucide="chevron-down"></i></a>
+                <a href="#bracelets">Bracelet <i data-lucide="chevron-down"></i></a>
+            <a href="#yantras">Yantras <i data-lucide="chevron-down"></i></a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Consult</a>
+            </div>
+
+            <div class="nav-actions">
+                <button class="icon-button" type="button" aria-label="Search">
+                    <i data-lucide="search"></i>
+                </button>
+                <button class="icon-button cart-button" id="cartButton" type="button" aria-label="Open cart">
+                    <i data-lucide="shopping-cart"></i>
+                    <span id="cartCount">0</span>
+                </button>
+                <button class="icon-button menu-button" id="menuButton" type="button" aria-label="Open menu">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section class="category-rail" aria-label="Popular categories">
+            <a href="#bracelets">Crystal Bracelet</a>
+            <a href="#rudraksha">Rudraksha</a>
+            <a href="#gemstones">Gems</a>
+            <a href="#yantras">Pyramid</a>
+            <a href="#contact">Consultation</a>
+        </section>
+
+        <section class="hero">
+            <div class="hero-copy">
+                <h1>
+                    <span>Experience the Power of</span>
+                    <em>Rudraksha in Your Life</em>
+                </h1>
+                <strong class="hero-ribbon">Energized &amp; Ready to Wear</strong>
+                <p>Authentic spiritual jewelry, certified gemstones and sacred Rudraksha selected with expert astrological guidance.</p>
+                <div class="hero-actions">
+                    <a href="#products" class="btn btn-primary">Shop Now</a>
+                    <a href="#finder" class="btn btn-outline">Find the Right Product</a>
+                </div>
+            </div>
+            <div class="hero-media">
+                <img src="images/WhatsApp Image 2026-05-04 at 6.13.58 PM.jpeg" alt="Rudraksha mala product photo">
+            </div>
+            <div class="hero-dots" aria-hidden="true">
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </section>
+
+        <section class="booking-ribbon" aria-label="Consultation offer">
+            <div class="ticker">
+                <span>Book your Consultation @ Rs. 499 <s>Rs. 699</s></span>
+                <strong>Slots are limited.</strong>
+                <a href="#contact">Reserve yours now</a>
+                <span>Book your Consultation @ Rs. 499 <s>Rs. 699</s></span>
+                <strong>Slots are limited.</strong>
+            </div>
+        </section>
+
+        <section id="finder" class="finder-section">
+            <div class="finder-bg">
+                <img src="images/WhatsApp Image 2026-05-04 at 6.39.06 PM.jpeg" alt="Yellow sapphire gemstone">
+                <img src="images/WhatsApp Image 2026-05-04 at 6.26.38 PM.jpeg" alt="Blue sapphire gemstone">
+                <img src="images/WhatsApp Image 2026-05-04 at 6.22.01 PM.jpeg" alt="Rudraksha bracelet">
+                <img src="images/WhatsApp Image 2026-05-04 at 6.36.39 PM.jpeg" alt="Ruby gemstone">
+            </div>
+            <form class="finder-card" id="finderForm">
+                <h2>Find the Right Product</h2>
+                <label>
+                    <span>Category</span>
+                    <select name="category" required>
+                        <option value="">Select Category</option>
+                        <option>Gemstones</option>
+                        <option>Rudraksha</option>
+                        <option>Crystal Bracelets</option>
+                    </select>
+                </label>
+                <label>
+                    <span>Product Type</span>
+                    <select name="type" required>
+                        <option value="">Select Product Type</option>
+                        <option>Career and success</option>
+                        <option>Health and protection</option>
+                        <option>Love and peace</option>
+                        <option>Wealth and prosperity</option>
+                    </select>
+                </label>
+                <label>
+                    <span>Price Range</span>
+                    <select name="price" required>
+                        <option value="">Select Price</option>
+                        <option>Below Rs. 1,000</option>
+                        <option>Rs. 1,000 - Rs. 5,000</option>
+                        <option>Rs. 5,000 - Rs. 15,000</option>
+                        <option>Rs. 15,000+</option>
+                    </select>
+                </label>
+                <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+        </section>
+
+        <section id="products" class="section">
+            <div class="section-heading">
+                <span>Shop by category</span>
+                <h2>Popular Spiritual Products</h2>
+            </div>
+            <div class="collection-grid">
+                <a href="#gemstones" class="collection-card">
+                    <img src="images/WhatsApp Image 2026-05-04 at 6.36.39 PM.jpeg" alt="Ruby gemstone">
+                    <strong>Gemstones</strong>
+                    <span>Certified planetary stones</span>
+                </a>
+                <a href="#rudraksha" class="collection-card">
+                    <img src="images/WhatsApp Image 2026-05-04 at 6.22.01 PM.jpeg" alt="Rudraksha bracelet">
+                    <strong>Rudraksha</strong>
+                    <span>Nepali beads and malas</span>
+                </a>
+                <a href="#bracelets" class="collection-card">
+                    <img src="images/WhatsApp Image 2026-05-04 at 5.31.04 PM.jpeg" alt="Amethyst bracelet">
+                    <strong>Bracelets</strong>
+                    <span>Healing crystal jewelry</span>
+                </a>
+                <a href="#yantras" class="collection-card">
+                    <img src="images/WhatsApp Image 2026-05-04 at 6.41.35 PM.jpeg" alt="Energy pyramid">
+                    <strong>Kavach Combo</strong>
+                    <span>Personalized remedies</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="gemstones" class="section product-section">
+            <div class="section-heading">
+                <span>Premium gemstones</span>
+                <h2>Best Selling Gemstones</h2>
+            </div>
+            <div class="product-grid" id="gemstoneGrid"></div>
+        </section>
+
+        <section id="rudraksha" class="section product-section warm-section">
+            <div class="section-heading">
+                <span>Sacred Rudraksha</span>
+                <h2>Energized Rudraksha Collection</h2>
+            </div>
+            <div class="product-grid" id="rudrakshaGrid"></div>
+        </section>
+
+        <section id="bracelets" class="section product-section">
+            <div class="section-heading">
+                <span>Crystal bracelets</span>
+                <h2>Healing Bracelets</h2>
+            </div>
+            <div class="product-grid" id="braceletGrid"></div>
+        </section>
+
+        <section id="yantras" class="section product-section warm-section">
+            <div class="section-heading">
+                <span>Yantras and pyramids</span>
+                <h2>Energy Pyramids &amp; Remedy Tools</h2>
+            </div>
+            <div class="product-grid" id="yantraGrid"></div>
+        </section>
+
+        <section class="section ritual-section">
+            <div class="ritual-copy">
+                <span class="eyebrow">Remedies by purpose</span>
+                <h2>Shop by Life Goal</h2>
+                <p>Choose the intention and shortlist products that match your consultation, chart and budget.</p>
+            </div>
+            <div class="goal-grid">
+                <a href="#gemstones"><i data-lucide="briefcase-business"></i><span>Career Growth</span></a>
+                <a href="#gemstones"><i data-lucide="heart"></i><span>Love &amp; Peace</span></a>
+                <a href="#rudraksha"><i data-lucide="shield-check"></i><span>Protection</span></a>
+                <a href="#bracelets"><i data-lucide="sparkles"></i><span>Healing Energy</span></a>
+                <a href="#finder"><i data-lucide="badge-indian-rupee"></i><span>Wealth &amp; Luck</span></a>
+            </div>
+        </section>
+
+        <section class="trust-section">
+            <div class="trust-card">
+                <i data-lucide="badge-check"></i>
+                <strong>Certified Products</strong>
+                <span>Quality checked before dispatch</span>
+            </div>
+            <div class="trust-card">
+                <i data-lucide="user-round-check"></i>
+                <strong>Expert Guidance</strong>
+                <span>Consult before you buy</span>
+            </div>
+            <div class="trust-card">
+                <i data-lucide="sparkles"></i>
+                <strong>Mantra Energized</strong>
+                <span>Prepared with ritual care</span>
+            </div>
+            <div class="trust-card">
+                <i data-lucide="truck"></i>
+                <strong>Secure Shipping</strong>
+                <span>Tracked delivery support</span>
+            </div>
+        </section>
+
+        <section id="reviews" class="section reviews-section">
+            <div class="section-heading">
+                <span>Customer stories</span>
+                <h2>What Buyers Say</h2>
+            </div>
+            <div class="review-grid">
+                <article>
+                    <div>★★★★★</div>
+                    <p>The Rudraksha quality felt genuine and the team helped me choose the correct mukhi.</p>
+                    <strong>Priya Sharma</strong>
+                </article>
+                <article>
+                    <div>★★★★★</div>
+                    <p>Clear consultation, fast delivery and the gemstone arrived with proper packing.</p>
+                    <strong>Rohit Mehra</strong>
+                </article>
+                <article>
+                    <div>★★★★★</div>
+                    <p>The amethyst bracelet looks beautiful in person and feels premium for the price.</p>
+                    <strong>Anita Verma</strong>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="consult-section">
+            <div>
+                <span class="eyebrow">Free guidance</span>
+                <h2>Book a consultation before you purchase</h2>
+  <p>Share your intention, budget and birth details. The team will help shortlist the right product.</p>
+            </div>
+            <a class="btn btn-primary" href="https://wa.me/919999999999">Chat on WhatsApp</a>
+        </section>
+    </main>
+
+    <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+        <div class="cart-header">
+            <div>
+                <span>Shopping cart</span>
+                <h2>Your Selection</h2>
+            </div>
+            <button class="icon-button" id="closeCart" type="button" aria-label="Close cart">
+                <i data-lucide="x"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cartItems"></div>
+        <div class="cart-empty" id="cartEmpty">
+            <i data-lucide="shopping-bag"></i>
+            <p>Your selected products will appear here.</p>
+        </div>
+        <div class="cart-footer">
+            <div>
+                <span>Estimated total</span>
+                <strong id="cartTotal">Rs. 0</strong>
+            </div>
+            <a class="btn btn-primary" id="checkoutLink" href="https://wa.me/919999999999">Checkout on WhatsApp</a>
+        </div>
+    </aside>
+    <div class="cart-backdrop" id="cartBackdrop"></div>
+
+    <a class="chat-now" href="https://wa.me/919999999999">
+        <i data-lucide="message-circle"></i>
+        Chat Now
+    </a>
+
+    <div class="online-widget" aria-hidden="true">
+        <span><i data-lucide="message-square"></i></span>
+        <div>
+            <strong>We're Online!</strong>
+            <small>How may I help you today?</small>
+        </div>
+    </div>
+
+    <a class="offer-tab" href="#contact">Get Rs. 500</a>
+
+    <footer class="footer">
+        <div>
+            <strong>Shambhavaa</strong>
+            <span>Premium gemstones, Rudraksha, bracelets and spiritual remedies.</span>
+        </div>
+        <small>All visible catalog photos are loaded from your local product image folder.</small>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

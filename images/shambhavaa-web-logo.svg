@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 112" role="img" aria-labelledby="title desc">
+  <title id="title">Shambhavaa</title>
+  <desc id="desc">Gold sacred eye logo and Shambhavaa wordmark.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff2b0"/>
+      <stop offset="0.36" stop-color="#d7a43f"/>
+      <stop offset="0.68" stop-color="#8c5a16"/>
+      <stop offset="1" stop-color="#ffd978"/>
+    </linearGradient>
+    <linearGradient id="redGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9b1f34"/>
+      <stop offset="1" stop-color="#d7a43f"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#31130d" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="420" height="112" rx="18" fill="#fffaf4"/>
+  <g filter="url(#softShadow)">
+    <circle cx="56" cy="56" r="37" fill="#0a0909"/>
+    <path d="M56 15c20 0 36 17 36 41S76 97 56 97 20 80 20 56 36 15 56 15Z" fill="none" stroke="url(#gold)" stroke-width="2.3"/>
+    <path d="M28 57c8-14 17-21 28-21s20 7 28 21c-8 13-17 20-28 20S36 70 28 57Z" fill="none" stroke="url(#gold)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="56" cy="57" r="9" fill="url(#gold)"/>
+    <circle cx="56" cy="57" r="4" fill="#080707"/>
+    <path d="M56 22c7 11 12 19 12 27 0 10-5 20-12 29-7-9-12-19-12-29 0-8 5-16 12-27Z" fill="none" stroke="url(#gold)" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M55 82h2v12h-2z" fill="url(#gold)"/>
+    <circle cx="56" cy="99" r="2.5" fill="url(#gold)"/>
+    <path d="M35 34h15M62 34h15M32 41h18M62 41h18" stroke="#fff" stroke-width="2.4" stroke-linecap="round" opacity="0.86"/>
+  </g>
+
+  <g>
+    <text x="112" y="49" fill="url(#redGold)" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" letter-spacing="7">SHAMBHAVAA</text>
+    <path d="M113 60h270" stroke="url(#gold)" stroke-width="1.4" opacity="0.85"/>
+    <text x="113" y="81" fill="#4e403b" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="4">CLARITY THROUGH THE SCIENCE OF TIME</text>
+    <text x="113" y="99" fill="#9b1f34" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="2">VEDIC ASTROLOGY  |  KAALCHAKRA INSIGHTS  |  PERSONALIZED GUIDANCE</text>
+  </g>
+</svg>
